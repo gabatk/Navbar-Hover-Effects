@@ -41,6 +41,8 @@ ul {
     width: 300px;
 }
 
+/* Navbar one */
+
 .dropdown li {
     background-color: #50515A;
     display: none;
@@ -86,5 +88,22 @@ ul {
     to {
         opacity: 1;
         transform: rotate(0);
+    }
+}
+
+/* Navbar two */
+
+.two:hover .dropdown li {
+    animation: menu2 .5s forwards;
+}
+
+@keyframes menu2 {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
